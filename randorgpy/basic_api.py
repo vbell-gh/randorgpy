@@ -1,10 +1,9 @@
 from typing import Any, List, Union
 
-from ..randorgpy import RandomOrgAPI
+from .main import RandomOrgAPI
+
 
 class BasicApi(RandomOrgAPI):
-    
-
     def generate_integers(
         self, n: int, minimum: int, maximum: int, replacement=True, base=10
     ):
@@ -181,3 +180,6 @@ class BasicApi(RandomOrgAPI):
         """
         parameters = {"apiKey": self.api_key}
         return self.send_request("getUsage", parameters)
+
+    def this_is_it(self):
+        print("This is base api")

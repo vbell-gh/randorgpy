@@ -14,7 +14,7 @@ class RandomOrgAPI:
             Defaults to False.
         id (int, optional): The ID to be used in the API requests.
             Defaults to 42.
-        The docstring are with the help AI cause I was lazy to write them myself and I pay 10 USD per month for that.
+        The docstring are with the help AI cause I was lazy to write them myself and I pay 10 USD per month for that anyway.
     """
 
     def __init__(
